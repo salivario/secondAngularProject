@@ -1,0 +1,55 @@
+.h1{
+    height: 100px;
+    margin: 0 auto 0;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;   
+}
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto 0;
+}
+.imgbox{
+    border: 1px solid black;
+    height: 295px;
+}
+.content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+.button{
+    font-weight: 900;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+}
+.inf2{
+    padding-bottom: 30px;
+}
+.GALLERY{
+    font-weight: 900;
+}

@@ -1,0 +1,17 @@
+.clientList{
+    width: fit-content;
+    padding-left: 25px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.client{
+    margin-right: 20px;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-left: 10px;
+    width: 300px;
+    border: 2px solid black;
+}

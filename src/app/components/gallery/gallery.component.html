@@ -1,0 +1,12 @@
+<div class="h1">
+    <h1 class="GALLERY">GALLERY</h1>
+</div>
+<div class="containerOFcontainer">
+    <div class="container" >
+        <div *ngFor="let elem of photos$ | async as data">
+            <div class="photo">
+                <a href=""><img src="{{elem.photo}}"></a>
+            </div>
+        </div>
+    </div>
+</div>

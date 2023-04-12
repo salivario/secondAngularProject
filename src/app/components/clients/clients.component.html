@@ -1,0 +1,22 @@
+<div class="clientList">
+    <div class="client" *ngFor="let client of clients$ | async as clients">
+        <div>
+            <h4> NAME:{{client.name}}</h4>
+        </div>
+        <div>
+            <h4>ADDRESS: {{client.address}}</h4>
+        </div>
+        <div>
+            <h4>EMAIL: {{client.email}}</h4>
+        </div>
+        <div>
+            <h4>PHONE NUMBER: {{client.phone}}</h4>
+        </div>
+        <div>
+            <span>{{client.message}}</span>
+        </div>
+        <div>
+            <button (click)="delete(client)">Удалить</button>
+        </div>
+    </div>
+</div>

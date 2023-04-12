@@ -1,0 +1,78 @@
+.my-button1 {
+    background-image: url("../../../assets/images/icon-twitter.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+  }
+  
+  .my-button1:hover {
+    background-image: url("../../../assets/images/icon-twitter-hover.jpg");
+    border: 1px solid black;
+  }
+  .my-button2 {
+    background-image: url("../../../assets/images/icon-pinterest.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+  }
+  
+  .my-button2:hover {
+    background-image: url("../../../assets/images/icon-pinterest-hover.jpg");
+    border: 1px solid black;
+  }
+  .my-button3 {
+    background-image: url("../../../assets/images/icon-googleplus.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+  }
+  
+  .my-button3:hover {
+    background-image: url("../../../assets/images/icon-googleplus-hover.jpg");
+    border: 1px solid black;
+  }
+  .my-button4 {
+    background-image: url("../../../assets/images/icon-facebook.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+  }
+  
+  .my-button4:hover {
+    background-image: url("../../../assets/images/icon-facebook-hover.jpg");
+    border: 1px solid black;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+  .social div{
+    padding-right: 10px;
+  }
+  .socialnav{
+    width: 50%;
+  }
+  .font{
+    color: white;
+  }
+  .corp{
+    margin-left: 30px;
+  }

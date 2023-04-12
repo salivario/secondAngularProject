@@ -1,0 +1,15 @@
+<div>
+    <div class="img">
+        <div class="itimg"><img src="../../../assets/images/logo.jpg"></div>
+    </div>
+    <div class="nav">
+        <div class="navigation">
+            <div><a class="links" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">HOME</a></div>
+            <div><a class="links" routerLink="About" routerLinkActive="active">ABOUT</a></div>
+            <div><a class="links" routerLink="Gallery" routerLinkActive="active">GALLERY</a></div>
+            <div><a class="links" routerLink="Blog" routerLinkActive="active">BLOG</a></div>
+            <div><a class="links" routerLink="Contact" routerLinkActive="active">CONTACT</a></div>
+            <div><a class="links" *ngIf="isAdmin" routerLink="Clients" routerLinkActive="active">CLIENTS</a></div>
+        </div>
+    </div>
+</div>

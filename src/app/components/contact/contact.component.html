@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="main">
+        <div *ngIf="showPopup" class="popup">
+            <h2>We will contact you!</h2>
+        </div>
+        <form *ngIf="showForm" class="form" [formGroup]="myForm" (submit)="onSubmit()">
+            <input type="text" [(ngModel)]="name" name="name" placeholder="*Name" formControlName="name">
+            <input type="text" [(ngModel)]="address" name="address" placeholder="*Address" formControlName="address">
+            <input type="email" [(ngModel)]="email" name="email" placeholder="*Email" formControlName="email">
+            <input type="tel" [(ngModel)]="phoneNumber" name="phoneNumber" placeholder="*Phone Number" formControlName="phoneNumber">
+            <textarea [(ngModel)]="message" name="message" placeholder="Message"></textarea>
+            <input class="submit" [disabled]="myForm.invalid" type="submit" value="submit">
+        </form>
+    </div>
+</div>
