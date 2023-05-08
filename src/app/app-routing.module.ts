@@ -7,6 +7,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ClientsComponent } from './components/clients/clients.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ClientsGuard } from './guards/clients.guard';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -14,7 +15,7 @@ const routes: Routes = [
   {path: 'Blog', component: BlogComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'Gallery', component: GalleryComponent},
-  {path: 'Clients', component: ClientsComponent},
+  {path: 'Clients', component: ClientsComponent, canActivate: [ClientsGuard]},
   {path: '**', component: NotFoundComponent},
   
 ];
