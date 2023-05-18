@@ -25,3 +25,9 @@
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 900px) {
+    .divContent{
+        width: 100%;
+    }
+}

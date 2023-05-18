@@ -53,3 +53,15 @@
 .GALLERY{
     font-weight: 900;
 }
+
+@media (max-width: 900px) {
+    .container{
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .inf3{
+        width: 100%;
+    }
+}

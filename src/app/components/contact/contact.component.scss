@@ -47,3 +47,8 @@ textarea{
     color: black;
     background-color:white ;
 }
+@media (max-width: 900px) {
+    .main{
+        width: 90%;
+    }
+}
